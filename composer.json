@@ -1,0 +1,19 @@
+{
+    "name": "kas-cor/oboi_test",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kas-cor",
+            "email": "kascorp@gmail.com"
+        }
+    ],
+    "require": {
+        "voku/simple_html_dom": "^4.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "Core",
+            "Parsers\\": "Parsers"
+        }
+    }
+}
